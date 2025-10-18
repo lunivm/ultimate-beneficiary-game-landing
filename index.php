@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кінцевий бенефіціар</title>
+    <link rel="stylesheet" href="style.css" />
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com" />-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+<!--    <link-->
+<!--        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"-->
+<!--        rel="stylesheet"-->
+<!--    />-->
+<!--    <link-->
+<!--        rel="stylesheet"-->
+<!--        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"-->
+<!--    />-->
+</head>
+<body class="game-page">
+<header>
+    <div class="container">
+        <nav>
+            <a class="logo" href="#"><img src="./logo.png" alt="logo" /></a>
+            <button class="nav-menu-button" id="navMenuButton">Меню</button>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-menu-item">
+                    <a href="#benefits">Переваги</a></li>
+                <li class="nav-menu-item">
+                    <a href="#rules">Як грати</a> </li>
+                <li class="nav-menu-item">
+                    <a href="#author">Про автора</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#testimonials">Відгуки</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#contacts">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="hero">
+
+        <div class="container hero-container">
+            <div class="hero-wrapper">
+                <div class="hero-img-wrapper">
+
+                    <!-- <picture>
+
+                      <source srcset="compas-desktop.png" media="(min-width: 1280px)">
+                      <img class="compas-img" id="rotatedLogo" src="compas.png" alt="Rotated Logo">
+                  </picture> -->
+                    <img src="compas.png" id="rotatedLogo" alt="Compas" class="compas-img">
+                    <img
+                        id="image1"
+                        class="hero-img active"
+                        src="./hero-img.png"
+                        alt="game"
+                    />
+                    <img id="image2" class="hero-img" src="./red-game.png" alt="game" />
+
+
+                </div>
+                <div class="hero-content-wrapper">
+                    <h1>Кінцевий бенефіціар</h1>
+                    <h2 class="title-description">
+                        настільна гра, яка вчить будувати бізнес
+                    </h2>
+                    <h3 class="cta-title">Навчись мислити і діяти як підприємець</h3>
+
+
+
+                    <div class="swiper swiper-hero slider-container hero-slider__container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper shining ">
+                            <!-- Slides -->
+                            <div class="swiper-slide hero-swiper-slide">
+                                <div class="slider-item hero-slider-item">
+                                    <img src="./slider-img/slider-jar.png" alt="" />
+                                    <p class="slider-text">формування пасивного грошового потоку</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide hero-swiper-slide">
+                                <div class="slider-item hero-slider-item">
+
+                                    <img src="./slider-img/slider-plant.png" alt="" />
+                                    <p class="slider-text">інвестування і управління активами</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide hero-swiper-slide">
+                                <div class="slider-item hero-slider-item">
+                                    <img src="./slider-img/slider-bag.png" alt="" />
+                                    <p class="slider-text">кредитно-фінансові відносини</p>
+                                </div></div>
+                            <div class="swiper-slide hero-swiper-slide">
+                                <div class="slider-item hero-slider-item">
+                                    <img src="./slider-img/slider-money.png" alt="" />
+                                    <p class="slider-text">ведення фінансової звітності</p>
+                                </div></div>
+                            <div class="swiper-slide hero-swiper-slide">
+                                <div class="slider-item hero-slider-item">
+                                    <img src="./slider-img/slider-doc.png" alt="" />
+                                    <p class="slider-text">реєстрація бізнесу: <br />ФОП, ТОВ, АТ, Холдинг</p>
+                                </div></div>
+                            <div class="swiper-slide hero-swiper-slide">
+                                <div class="slider-item hero-slider-item">
+                                    <img src="./slider-img/slider-rocket.png" alt="" />
+                                    <p class="slider-text">весело провести час у компанії однодумців</p>
+                                </div></div>
+                        </div>
+
+                    </div>
+
+                    <div class="buttons-group">
+                        <a href="#services" class="game-button button-accent">придбати</a>
+                        <a href="#about" class="game-button">детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2>Для кого гра?</h2>
+                <ul class="requirements">
+                    <li>2-6 гравців</li>
+                    <li>14+</li>
+                    <li>1,5-3 години</li>
+                </ul>
+            </div>
+            <ul class="audience">
+                <li class="entrepreneur">
+                    <h3 class="audience-title">Підприємцям-початківцям</h3>
+                    <p>
+                        спробувати свої бізнес-гіпотези без ризику втратити реальні
+                        гроші
+                    </p>
+                </li>
+                <li class="coach">
+                    <h3 class="audience-title">Коучам та ігропрактикам</h3>
+                    <p>
+                        отримати новий інструмент навчання бізнесу в Українських реаліях
+                    </p>
+                </li>
+                <li class="military audience__military">
+                    <h3 class="audience-title">Військовослужбовцям</h3>
+                    <p>зрозуміти чи підприємництво для тебе</p>
+                </li>
+                <li class="investor">
+                    <h3 class="audience-title">Інвесторам-початківцям</h3>
+                    <p>
+                        зрозуміти більше про бізнес-моделі та фінансові аспекти
+                        інвестування
+                    </p>
+                </li>
+
+                <li class="ceo">
+                    <h3 class="audience-title">Керівникам компаній</h3>
+                    <p>
+                        розширити знання з управління бізнесом та вдосконалити
+                        стратегічні навички
+                    </p>
+                </li>
+                <li class="student">
+                    <h3 class="audience-title">Студентам</h3>
+                    <p>
+                        попрактикувати теоретичні знання на реальній бізнес-симуляції
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="benefits" id="benefits">
+        <div class="container thin-container">
+            <h2>У чому переваги?</h2>
+            <p class="benefits-text">
+                Кінцевий бенефіціар має унікальні ігрові механіки
+            </p>
+            <div class="benefits-wrapper">
+                <picture>
+                    <source srcset="benefits-card-desktop.png" media="(min-width: 768px)">
+                    <img class="benefits-cards-img" src="benefits-card-mobile.png" alt="Benefits Card">
+                </picture>
+
+                <ul class="cards">
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+                                <p class="card-title card-title__blue">Пасивний грошовий потік</p>
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/teapot.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        вчить генерації грошового потоку через придбання продуктивних активів
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>формування пасивного доходу носить побутовий характер</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__blue">Пасивний грошовий потік</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>формування пасивного доходу носить побутовий характер</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+                                <p class="card-title card-title__yellow">Інвестиції</p>
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/jar.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        два види інвестування: <br />1. з метою перепродажу <br />2. в «робочий» актив
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>містить механіки обох видів інвестування</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>лише купівля з метою перепродажу</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__yellow">Інвестиції</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>містить механіки обох видів інвестування</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>лише купівля з метою перепродажу</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+                                <p class="card-title card-title__green">Фінзвітність</p>
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/micro.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        ведення в спрощеному вигляді звітності про прибутки та
+                                        збитки
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>на основі грошових взаємин у США, не корелює з фін./бух. обліком</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__green">Фінзвітність</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>на основі грошових взаємин у США, не корелює з фін./бух. обліком</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+                                <p class="card-title card-title__plum">Оподаткування</p>
+
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/calendar.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        ставки податку для різних форм бізнесу (ФОП/ТОВ/АТ), облік і
+                                        сплата податку
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>елементи оподаткування не значні, на основі грошових взаємин в США</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__plum">Оподаткування</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>елементи оподаткування не значні, на основі грошових взаємин в США</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+
+                                <p class="card-title card-title__blue">
+                                    Управління різними формами бізнесу
+                                </p>
+
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/factory.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        за гру гравець виступає як Фіз/особа, ФОП, власник ТОВ і АТ 
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>немає такої механіки </p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__blue">Управління різними формами бізнесу</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+                                <p class="card-title card-title__yellow">Фінансовий рік</p>
+
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/brain.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        завдяки цьому гравці можуть оцінити минулі дії та виробити
+                                        нову тактику
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>немає такої механіки </p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__yellow">Фінансовий рік</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+                                <p class="card-title card-title__green">
+                                    Кредитно-фінансові відносини
+                                </p>
+
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/money.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        можливість користуватися позиковими коштами зі всіма
+                                        особливостями
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>містить механіку для отримання кредиту</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__green">Кредитно-фінансові відносини</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow ok">
+                                            <span>CashFlow</span>
+                                            <p>містить механіку для отримання кредиту</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-item flip-card">
+                        <div class="card-title-wrapper flip-card-inner">
+                            <div class="flip-card-front card-corner">
+
+                                <p class="card-title card-title__olive">«Фішки»</p>
+
+                                <div class="card-description">
+                                    <div class="card-icon-container">
+                                        <img src="./svg/smartphone.png" alt="" />
+                                    </div>
+                                    <p class="card-text">
+                                        1. Антимонопольний комітет<br />
+                                        2. Вільна економічна зона<br />
+                                        3. Offshore<br />
+                                    </p>
+                                    <ul class="games-comparison">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>немає такої механіки </p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flip-card-back card-corner">
+                                <p class="card-title card-title__olive">«Фішки»</p>
+                                <div class="card-description">
+                                    <ul class="games-comparison games-comparison-back">
+                                        <li class="cashflow no">
+                                            <span>CashFlow</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                        <li class="monopoly no">
+                                            <span>Монополія</span>
+                                            <p>немає такої механіки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h2>ОБИРАЙ ПАКЕТ ДО ВПОДОБИ</h2>
+
+            <ul class="services-cards-list">
+                <li class="service-card">
+                    <h3 class="service-card-title">грай</h3>
+                    <div class="service-options-wrapper">
+                        <label class="service-option" data-buy-handler-item="game-v1">
+                            <p class="service-option-name">
+                                Кінцевий бенефіціар 1.0
+
+                                <span class="option-language"
+                                >мова: українська/російська</span
+                                >
+                            </p>
+
+                            <p class="option-description">
+                                Ідеально для людей, які хочуть навчитися думати як
+                                підприємці
+                            </p>
+                            <p class="option-price">1500<span> грн</span></p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="service-option" data-buy-handler-item="game-v4.5.0">
+                            <p class="service-option-name">Кінцевий бенефіціар 4.5.0</p>
+                            <p class="option-description">
+                                Для військовослужбовців, які хочуть почати бізнес
+                            </p>
+                            <p class="option-price">1800<span> грн</span></p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <button class="game-button" data-buy-handler-action="buy-redirect">придбати</button>
+                    </div>
+                </li>
+                <li class="service-card">
+                    <h3 class="service-card-title">грай на повну</h3>
+                    <div class="service-options-wrapper">
+                        <label class="service-option" data-buy-handler-item="game-v1">
+                            <p class="service-option-name">
+                                Кінцевий бенефіціар 1.0
+                                <span class="option-language"
+                                >мова: українська/російська</span
+                                >
+                            </p>
+
+                            <p class="option-description" data-buy-handler-item="game-v4.5.0">
+                                Ідеально для людей, які хочуть навчитися думати як
+                                підприємці
+                            </p>
+                            <p class="option-price">1500<span> грн</span></p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="service-option" data-buy-handler-item="game-v4.5.0">
+                            <p class="service-option-name">Кінцевий бенефіціар 4.5.0</p>
+                            <p class="option-description">
+                                Для військовослужбовців, які хочуть почати бізнес
+                            </p>
+                            <p class="option-price">1800<span> грн</span></p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="service-option service-option__checked">
+                            <p class="service-option-name">
+                                30 хв онлайн-дзвінок із сертифікованим ведучим
+                            </p>
+                            <p class="option-description">Для кращого розуміння правил</p>
+                            <p class="option-price">400<span> грн</span></p>
+                        </div>
+                        <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="грай на повну">придбати</button>
+                    </div>
+                </li>
+
+                <li class="service-card">
+                    <h3 class="service-card-title">грай і читай</h3>
+                    <div class="service-options-wrapper">
+                        <label class="service-option" data-buy-handler-item="game-v1">
+                            <p class="service-option-name">
+                                Кінцевий бенефіціар 1.0
+                                <span class="option-language"
+                                >мова: українська/російська</span
+                                >
+                            </p>
+
+                            <p class="option-description">
+                                Ідеально для людей, які хочуть навчитися думати як
+                                підприємці
+                            </p>
+                            <p class="option-price">1500<span> грн</span></p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="service-option" data-buy-handler-item="game-v4.5.0">
+                            <p class="service-option-name">Кінцевий бенефіціар 4.5.0</p>
+                            <p class="option-description">
+                                Для військовослужбовців, які хочуть почати бізнес
+                            </p>
+                            <p class="option-price">1800<span> грн</span></p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="service-option service-option__checked">
+                            <p class="service-option-name">
+                                Книга “Кінцевий бенефіціар”
+                                <span class="option-language"
+                                >мова: українська/російська</span
+                                >
+                            </p>
+                            <p class="option-description">
+                                Перший український бізнес детектив
+                            </p>
+                            <p class="option-price">500<span> грн</span></p>
+
+                            <a href="https://www.beneficiary.com.ua/book" class="option-link option-link__yellow"
+                            >Детальніше про книгу</a
+                            >
+                        </div>
+                        <button class="game-button">придбати</button>
+                    </div>
+                </li>
+                <li class="service-card green-card">
+                    <h3 class="service-card-title">організуй навчання</h3>
+                    <div class="service-options-wrapper">
+                        <label class="service-option"  data-buy-handler-item="participation-offline-game">
+                            <p class="service-option-name">Взяти участь у офлайн грі*</p>
+
+                            <p class="option-description">
+                                Можна забронювати учать у живій грі, під керівництвом
+                                ведучого
+                            </p>
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="service-option" data-buy-handler-item="participation-online-game">
+                            <p class="service-option-name">Взяти участь у онлайн грі*</p>
+                            <p class="option-description">
+                                Можна забронювати учать у онлайн грі, під керівництвом
+                                ведучого
+                            </p>
+
+                            <input type="checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="service-option">
+                            <p class="option-price">600-1000<span> грн</span></p>
+                            <p class="option-description">
+                                *Ціна участі в грі залежить від формату, ведучого, місця та
+                                часу ігрової сесії
+                            </p>
+                        </div>
+                        <button class="game-button">замовити</button>
+                    </div>
+                </li>
+                <li class="service-card green-card">
+                    <h3 class="service-card-title">Очолюй гру</h3>
+                    <div class="service-options-wrapper">
+                        <div class="service-option service-option__checked">
+                            <p class="service-option-name">
+                                Стати сертифікованим ведучим
+                            </p>
+                            <p class="option-description">
+                                Пройти курс навчання та стати  сертифікованим ведучим гри
+                            </p>
+                        </div>
+                        <div class="service-option">
+                            <p class="option-price">
+                                <span>від </span>4000<span> грн</span>
+                            </p>
+                            <p class="option-description">
+                                *Ціна залежить від особливостей курсу навчання та глибини сертифікації ведучого
+                            </p>
+
+                            <!-- TODO: style and links -->
+                            <div class="">
+                                <a href="/cert-example.jpeg" class="option-link option-link__yellow"
+                                >Зразок сертифікату</a
+                                >
+                            </div>
+                        </div>
+                        <button class="game-button">Замовити</button>
+                    </div>
+                </li>
+                <li class="service-card green-card" data-buy-handler-skip>
+                    <h3 class="service-card-title">Є питання?</h3>
+                    <div class="service-options-wrapper">
+                        <div class="service-option service-option__checked">
+                            <p class="service-option-name">
+                                Залиште заявку
+                            </p>
+                            <p class="option-description">
+                                Ми сконтактуємо з Вами якнайшвидше та відповімо на всі питання
+                            </p>
+                        </div>
+                        <div class="service-option">
+                            <p class="option-price">це безкоштовно :)</p>
+                            <!-- <p class="option-description">
+                              *Ціна участі в грі залежить від формату, ведучого, місця та
+                              часу ігрової сесії
+                            </p> -->
+                        </div>
+                        <a href="#contactForm" class="game-button">Запитати</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="rules" id="rules">
+        <div class="container thin-container">
+            <h2 class="rules-title">Як грати у гру?</h2>
+            <div class="rules-wrapper">
+                <video class="rules-video" src="./game-rules.mp4" controls poster="./poster.png"></video></video>
+                <ul class="goals-wrapper">
+
+                    <li class="goal">
+                        <h3 class="goal-title">Мета гри</h3>
+                        <p class="goal-subtitle">
+                            Заснувати Холдинг в обраній сфері економіки
+                        </p>
+                        <div class="rules-description">
+                            <p>
+                                Кожен гравець зі статусу фізичної особи-найманого працівника
+                                повинен вирости, як ФОП - ТОВ - АТ - ХОЛДИНГ
+                            </p>
+                            <p>
+                                Протягом гри гравець набуває 4 категорії активів: Матеріальні,
+                                Нематеріальні, Дозвільні активи, Ноу-хау
+                            </p>
+                        </div>
+                    </li>
+                    <li class="goal">
+                        <h3 class="goal-title">Події гри</h3>
+                        <p class="goal-subtitle">
+                            Відбуваються протягом фінансового року
+                        </p>
+                        <div class="rules-description">
+                            <p>
+                                Один фінансовий рік — це одне коло. За гру може бути максимум
+                                6 фінансових років
+                            </p>
+                            <p>
+                                Гравець веде фінзвітність і в кінці кожного фінансового року
+                                підбиває підсумки, сплачуючи податки
+                            </p>
+                        </div>
+                    </li>
+                    <li class="goal goal-rules">
+                        <h3 class="goal-title goal-rules-header">Детальні правила</h3>
+                        <!-- TODO: link style -->
+                        <a class="option-link option-link-pdf option-link__yellow" target="_blank" href="https://www.beneficiary.com.ua/wp-content/uploads/2022/02/ubg-rules_ukr-1.pdf">Прочитати в PDF</a>
+                        <a class="option-link option-link-telegram option-link__yellow" target="_blank" href="https://t.me/UBRules_bot">Перейти в telegram-бот</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="author" id="author">
+        <div class="container">
+            <h2>Автор гри</h2>
+            <div class="author-wrapper">
+                <picture class="author-photo">
+                    <source srcset="./author-photo-desktop.png" media="(min-width: 1280px)">
+                    <source srcset="./author-photo-tablet.png" media="(min-width: 768px)">
+                    <img src="./author-photo-mobile.png" alt="Author Photo">
+                </picture>
+
+                <h3 class="author-name">Роман Кузюк</h3>
+                <ul class="social-list">
+                    <li><a class="instagram" href="#">
+                            <svg>
+                                <use xlink:href="sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a></li>
+                    <li><a class="facebook" href="#">
+                            <svg>
+                                <use xlink:href="sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a></li>
+                    <li><a class="telegram" href="#">
+                            <svg>
+                                <use xlink:href="sprite.svg#icon-telegram"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+                <div class="author-about-description">
+                    <p class="author-about">Спеціаліст із банківського права, цінних паперів та корпоративного управління</p>
+                    <p class="author-about">Голова Наглядових рад “Енергопроект” та “Оріана” — компаній Фонду держмайна України з 2021 по 2023 роки</p>
+                    <p class="author-about">Засновник видавництва та Громадської організації “КІНЦЕВИЙ БЕНЕФІЦІАР”</p>
+                </div>
+                <div class="work-experience work-first">
+                    <picture class="company-logo-wrapper">
+                        <source srcset="./ofir-capital-desk.png" media="(min-width: 1280)">
+                        <img class="company-logo ofir-logo" src="./ofir-capital-mob.png" alt="Ofir Capital Logo">
+                    </picture>
+                    <div class="work-description">
+                        <span class="work-time">2017-2018</span>
+                        <p>Директор Компанії  <br>з управління активами</p>
+                    </div>
+                </div>
+                <div class="work-experience work-second">
+                    <picture class="company-logo-wrapper">
+                        <source srcset="./nova-poshta-desktop.png" media="(min-width: 1280px)">
+                        <img class="company-logo" src="./nova-poshta-mob.png" alt="Nova Poshta Logo">
+                    </picture>
+                    <div class="work-description">
+                        <span class="work-time">2015-2017</span>
+                        <p>Директор Департаменту корпоративного управління</p>
+                    </div>
+                </div>
+                <div class="work-experience companies">
+                    <div class=" logo-set company-logo-wrapper">
+                        <picture>
+                            <source srcset="./vtb-desktop.png" media="(min-width: 1280px)">
+                            <img class="company-logo" src="./vtb-mobile.png" alt="VTB Logo">
+                        </picture>
+                        <picture>
+                            <source srcset="./pumb-desktop.png" media="(min-width: 1280px)">
+                            <img  src="./pumb-mobile.png" alt="Pumb Logo">
+                        </picture>
+
+                        <picture >
+                            <source srcset="./oshchadbank-desk.png" media="(min-width: 1280px)">
+                            <img  src="./oshchadbank-mob.png" alt="Oshchadbank Logo">
+                        </picture>
+                    </div>
+                    <div class="work-description">
+                        <span class="work-time">2009-2015</span>
+                        <p>Працював на керівних посадах</p>
+                    </div>
+                </div>
+
+
+                <div class="author-book first-book">
+                    <div class="book-img-wrapper">
+                        <img src="./book-beneficiary.png" alt="">
+                    </div>
+                    <p>Автор бізнес-роману “Кінцевий бенефіціар”</p>
+                </div>
+                <div class="author-book second-book">
+                    <div class="book-img-wrapper">
+                        <img src="./book-sporty-businessman.png" alt="">
+                    </div>
+                    <p>Автор роману-методики “Спортивний бізнесмен”</p>
+                </div>
+                <div class="video-wrapper film">
+                    <!-- <div class="video-cover" id="video-cover">
+                        <img src="cover-image.jpeg" alt="Video Cover">
+                        <button id="play-button">&#9658;</button>
+                    </div> -->
+                    <iframe id="video" src="https://www.youtube.com/embed/lOMaiD52zbU?si=OV34tYSj-oo3PTmB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="film-position">Продюсер тизеру та автор сценарію до фільму “Кінцевий бенефіціар”</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container testimonials-container">
+            <h2>Відгуки</h2>
+            <div class="swiper swiper-testimonials slider-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image"></div>
+
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">ANDRIY GO</h3>
+                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                Гра чудова, як на мене! Реально дає можливість відчути азарт від пошуку можливостей придбати актив для бізнесу чи інвестиції заради примноження капіталу. Механіка гри спонукає до комунікативності між учасниками, що є великим плюсом у тренуванні навичок ведення переговорів.
+                                І що саме цікаво під час гри гравці, що казали "ми не тямимо в фінансах", доволі швидко стали потужними інвесторами і стрімко пішли у напрямку реєстрації Холдингу. Як то кажуть результат просвітницької місії очевидний! Автор гри великий молодчага!
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image"> </div>
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">Олександр Кульвановський</h3>
+                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                Прекрасная образовательная игра. Все что вы хотели знать о принципах экономики и финансовой системе легко и доступно. И весьма глубоко. Рекомендую!
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image"></div>
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">Наталія Пешкова</h3>
+                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                Мне интересна эта игра. Понравилась и рекомендую друзьям. Жду продаж))
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image"> </div>
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">Максим Перов</h3>
+                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text"> Продуманная механика, отличный образовательный и развивающий потенциал, большая вариативность и реиграбельность, приближенность к нашим бизнес-реалиям - все это мотивирует думать, просчитывать наперед и каждый пять минут задавать себе вопрос "Так может все-таки пора открывать свое дело?"
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image"></div>
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">Юлія Постернак</h3>
+                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text"> Найкращий спосіб провести свій вільний час з користю —зіграти в цю гру! Концентруючи увагу на грі, неможливо не заглибитись у процес з головою, тим самим відволікаючись від буденності. Азартним людям рекомендую!!!      </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image"></div>
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">Юрій Біловус</h3>
+                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text"> Крута гра — поринув у дитинство, коли грав цілими дні такі економічні ігри як менеджер та монополію, але тут все крутіше і ближче до тебе, не Гаїті з Фіджі, а ФОП, ТОВ, ПАТ і т.д.              </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2>Залишилися запитання?</h2>
+            <div class="contacts-container">
+                <div class="telegram-form">
+                    <h3 class="contacts__header">Надіслати заявку</h3>
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше імʼя" required>
+                            <!-- <span class="error-message" id="nameError">Please enter your name</span> -->
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telephone" name="telephone" placeholder="Номер телефону" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                            <!-- <span class="error-message" id="telephoneError">Please enter a valid phone number (format: 123-45-678)</span> -->
+                        </div>
+                        <div class="form-group">
+                            <textarea id="comment" name="comment" rows="3" placeholder="Коментар"></textarea>
+                        </div>
+                        <input type="submit" class="game-button button-accent button__contacts" value="Відправити"/>
+                    </form>
+
+                </div>
+
+                <div class="contacts-wrapper">
+                    <h3 class="contacts__header">наші контакти
+                    </h3>
+                    <div class="social-links">
+
+
+                        <a href="https://www.facebook.com/ultimatebeneficiary" class="game-button contacts-fb">Кінцевий бенефіціар</a>
+                        <a href="https://t.me/timujyn38" class="game-button contacts-tg">@timujyn38</a>
+                        <a class="game-button contacts-phone" href="tel:+380509021222">+380509021222</a>
+                        <a class="game-button contacts-phone" href="tel:+380931516528">+380931516528</a>
+
+                    </div>
+
+                    <!-- <a class="game-button" href="https://t.me/timujyn38">@timujyn38</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="successModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Заявка надіслана! <br> Ми сконтактуємо з Вами якомога швидше!</p>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" title="Go to top">
+        <svg fill="#000" height="40" width="40" viewBox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg"><path d="m480-528-184 184-56-56 240-240 240 240-56 56z"/></svg>
+    </button>
+</main>
+
+
+<!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>-->
+<script src="./script.js"></script>
+<script src="./buy.js"></script>
+</body>
+<footer class="footer">
+    <div class="container thin-container">
+        <div class="payment-methods">
+            <img src="./footer-visa.png" alt="">
+            <img src="./footer-mastercard.png" alt="">
+            <img src="./footer-pumb.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>ТОВ "Кінцевий Бенефіціар" ©2024. Усі права захищено</p>
+            <a href="">Правила та Умови</a>
+            <a href="">Політика конфіденційності</a></p>
+        </div>
+    </div>
+</footer>
+</html>
