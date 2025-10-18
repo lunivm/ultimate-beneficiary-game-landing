@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кінцевий бенефіціар</title>
     <link rel="stylesheet" href="style.css" />
-<!--    <link rel="preconnect" href="https://fonts.googleapis.com" />-->
-<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
-<!--    <link-->
-<!--        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"-->
-<!--        rel="stylesheet"-->
-<!--    />-->
-<!--    <link-->
-<!--        rel="stylesheet"-->
-<!--        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"-->
-<!--    />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body class="game-page">
 <header>
@@ -899,91 +899,154 @@
                     <div class="swiper-slide">
                         <div class="slider-item">
                             <div class="author-testimonial">
-                                <div class="author-testimonial__image"></div>
+                                <div class="author-testimonial__image author-testimonial__image-1"></div>
 
                                 <div class="testimonial-author-wrapper">
-                                    <h3 class="testimonial-author__name">ANDRIY GO</h3>
-                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                    <h3 class="testimonial-author__name">Олесь Вареник</h3>
+                                    <p class="testimonial-author__about">Підприємець, інвестор, засновник Invest Hub</p>
                                 </div>
                             </div>
                             <div class="testimonial-text">
-                                Гра чудова, як на мене! Реально дає можливість відчути азарт від пошуку можливостей придбати актив для бізнесу чи інвестиції заради примноження капіталу. Механіка гри спонукає до комунікативності між учасниками, що є великим плюсом у тренуванні навичок ведення переговорів.
-                                І що саме цікаво під час гри гравці, що казали "ми не тямимо в фінансах", доволі швидко стали потужними інвесторами і стрімко пішли у напрямку реєстрації Холдингу. Як то кажуть результат просвітницької місії очевидний! Автор гри великий молодчага!
-
+                                Гра вчить розбиратись у тонкощах підприємництва і дає реальний контент та навички для подальшого вибору свого шляху як підприємця, крупного бізнесмена або інвестора. Раджу всім без винятку!
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="slider-item">
                             <div class="author-testimonial">
-                                <div class="author-testimonial__image"> </div>
+                                <div class="author-testimonial__image author-testimonial__image-2"></div>
+
+                                <div class="testimonial-author-wrapper">
+                                    <h3 class="testimonial-author__name">Сергій Позняк</h3>
+                                    <p class="testimonial-author__about">Снайпер, лейтенант НГУ, Голова Асоціації підприємців-ветеранів</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-text">
+                                Люблю влучати у ціль, особливо, якщо це ворог. Гра для військових КБ 4.5.0 - це точне влучання в потребу для військових і ветеранів у доступному симуляторі-тренінгу з бізнесу та фінансів. Рекомендую!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider-item">
+                            <div class="author-testimonial">
+                                <div class="author-testimonial__image author-testimonial__image-3"></div>
+
                                 <div class="testimonial-author-wrapper">
                                     <h3 class="testimonial-author__name">Олександр Кульвановський</h3>
-                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                    <p class="testimonial-author__about">Засновник порталу трансформаційних ігор KriyaSelf</p>
                                 </div>
                             </div>
                             <div class="testimonial-text">
-                                Прекрасная образовательная игра. Все что вы хотели знать о принципах экономики и финансовой системе легко и доступно. И весьма глубоко. Рекомендую!
+                                Прекрасна трансформаційна гра. Все, що ви хотіли знати про принципи економіки та фінансової системи України легко і доступно. Однозначно рекомендую!
                             </div>
-
-
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="slider-item">
                             <div class="author-testimonial">
-                                <div class="author-testimonial__image"></div>
+                                <div class="author-testimonial__image author-testimonial__image-4"></div>
+
                                 <div class="testimonial-author-wrapper">
-                                    <h3 class="testimonial-author__name">Наталія Пешкова</h3>
-                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                    <h3 class="testimonial-author__name">Андрій Годун</h3>
+                                    <p class="testimonial-author__about">Перший інвестор в Гру "Кінцевий бенефіціар"</p>
                                 </div>
                             </div>
                             <div class="testimonial-text">
-                                Мне интересна эта игра. Понравилась и рекомендую друзьям. Жду продаж))
+                                Гра реально дає можливість відчути азарт від пошуку можливостей придбати актив для бізнесу чи інвестиції заради примноження капіталу. Механіка спонукає до комунікацій між учасниками і тренування навичок ведення переговорів.Найцікавіше, що під час гри ті, хто казали "ми не тямимо в фінансах", доволі швидко стали потужними інвесторами і стрімко пішли у напрямку реєстрації Холдингу. Просвітницька місія В ДІЇ!
                             </div>
-
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="slider-item">
                             <div class="author-testimonial">
-                                <div class="author-testimonial__image"> </div>
+                                <div class="author-testimonial__image author-testimonial__image-5"></div>
+
                                 <div class="testimonial-author-wrapper">
                                     <h3 class="testimonial-author__name">Максим Перов</h3>
-                                    <p class="testimonial-author__about">Хто такий і звідки</p>
+                                    <p class="testimonial-author__about">Військовослужбовець</p>
                                 </div>
                             </div>
-                            <div class="testimonial-text"> Продуманная механика, отличный образовательный и развивающий потенциал, большая вариативность и реиграбельность, приближенность к нашим бизнес-реалиям - все это мотивирует думать, просчитывать наперед и каждый пять минут задавать себе вопрос "Так может все-таки пора открывать свое дело?"
+                            <div class="testimonial-text">
+                                Продумана механіка, відмінний освітній та розвиваючий потенціал, велика варіативність, наближеність до наших бізнес-реалій - все це мотивує думати, прораховувати наперед і кожні п'ять хвилин ставити собі питання: "Може все-таки пора відкривати свою справу?!"
                             </div>
-
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="slider-item">
-                            <div class="author-testimonial">
-                                <div class="author-testimonial__image"></div>
-                                <div class="testimonial-author-wrapper">
-                                    <h3 class="testimonial-author__name">Юлія Постернак</h3>
-                                    <p class="testimonial-author__about">Хто такий і звідки</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-text"> Найкращий спосіб провести свій вільний час з користю —зіграти в цю гру! Концентруючи увагу на грі, неможливо не заглибитись у процес з головою, тим самим відволікаючись від буденності. Азартним людям рекомендую!!!      </div>
 
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slider-item">
-                            <div class="author-testimonial">
-                                <div class="author-testimonial__image"></div>
-                                <div class="testimonial-author-wrapper">
-                                    <h3 class="testimonial-author__name">Юрій Біловус</h3>
-                                    <p class="testimonial-author__about">Хто такий і звідки</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-text"> Крута гра — поринув у дитинство, коли грав цілими дні такі економічні ігри як менеджер та монополію, але тут все крутіше і ближче до тебе, не Гаїті з Фіджі, а ФОП, ТОВ, ПАТ і т.д.              </div>
-
-                        </div>
-                    </div>
+                    <!--                    <div class="swiper-slide">-->
+<!--                        <div class="slider-item">-->
+<!--                            <div class="author-testimonial">-->
+<!--                                <div class="author-testimonial__image"> </div>-->
+<!--                                <div class="testimonial-author-wrapper">-->
+<!--                                    <h3 class="testimonial-author__name">Олександр Кульвановський</h3>-->
+<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="testimonial-text">-->
+<!--                                Прекрасная образовательная игра. Все что вы хотели знать о принципах экономики и финансовой системе легко и доступно. И весьма глубоко. Рекомендую!-->
+<!--                            </div>-->
+<!---->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide">-->
+<!--                        <div class="slider-item">-->
+<!--                            <div class="author-testimonial">-->
+<!--                                <div class="author-testimonial__image"></div>-->
+<!--                                <div class="testimonial-author-wrapper">-->
+<!--                                    <h3 class="testimonial-author__name">Наталія Пешкова</h3>-->
+<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="testimonial-text">-->
+<!--                                Мне интересна эта игра. Понравилась и рекомендую друзьям. Жду продаж))-->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide">-->
+<!--                        <div class="slider-item">-->
+<!--                            <div class="author-testimonial">-->
+<!--                                <div class="author-testimonial__image"> </div>-->
+<!--                                <div class="testimonial-author-wrapper">-->
+<!--                                    <h3 class="testimonial-author__name">Максим Перов</h3>-->
+<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="testimonial-text"> Продуманная механика, отличный образовательный и развивающий потенциал, большая вариативность и реиграбельность, приближенность к нашим бизнес-реалиям - все это мотивирует думать, просчитывать наперед и каждый пять минут задавать себе вопрос "Так может все-таки пора открывать свое дело?"-->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide">-->
+<!--                        <div class="slider-item">-->
+<!--                            <div class="author-testimonial">-->
+<!--                                <div class="author-testimonial__image"></div>-->
+<!--                                <div class="testimonial-author-wrapper">-->
+<!--                                    <h3 class="testimonial-author__name">Юлія Постернак</h3>-->
+<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="testimonial-text"> Найкращий спосіб провести свій вільний час з користю —зіграти в цю гру! Концентруючи увагу на грі, неможливо не заглибитись у процес з головою, тим самим відволікаючись від буденності. Азартним людям рекомендую!!!      </div>-->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="swiper-slide">-->
+<!--                        <div class="slider-item">-->
+<!--                            <div class="author-testimonial">-->
+<!--                                <div class="author-testimonial__image"></div>-->
+<!--                                <div class="testimonial-author-wrapper">-->
+<!--                                    <h3 class="testimonial-author__name">Юрій Біловус</h3>-->
+<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="testimonial-text"> Крута гра — поринув у дитинство, коли грав цілими дні такі економічні ігри як менеджер та монополію, але тут все крутіше і ближче до тебе, не Гаїті з Фіджі, а ФОП, ТОВ, ПАТ і т.д.              </div>-->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-prev"></div>
@@ -1048,7 +1111,7 @@
 </main>
 
 
-<!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./script.js"></script>
 <script src="./buy.js"></script>
 </body>
