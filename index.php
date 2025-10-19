@@ -605,16 +605,13 @@
                         <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="грай на повну">придбати</button>
                     </div>
                 </li>
-
                 <li class="service-card">
                     <h3 class="service-card-title">грай і читай</h3>
                     <div class="service-options-wrapper">
                         <label class="service-option" data-buy-handler-item="game-v1">
                             <p class="service-option-name">
                                 Кінцевий бенефіціар 1.0
-                                <span class="option-language"
-                                >мова: українська/російська</span
-                                >
+                                <div class="option-language" >мова: українська/російська</div >
                             </p>
 
                             <p class="option-description">
@@ -635,14 +632,24 @@
                             <span class="checkmark"></span>
                         </label>
                         <div class="service-option service-option__checked">
-                            <p class="service-option-name">
+                            <div class="service-option-name">
                                 Книга “Кінцевий бенефіціар”
-                                <span class="option-language"
-                                >мова: українська/російська</span
-                                >
-                            </p>
+                                <div class="option-language">
+                                    <p style="margin-top: 10px">мова:</p>
+                                    <label class="service-option" style="margin-top: 20px;" data-buy-handler-item="book-ultimate-beneficiary-ua" data-validation-skip="true">
+                                        <p>українська</p>
+                                        <input type="radio" name="ub-language" value="ua" checked />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="service-option" data-buy-handler-item="book-ultimate-beneficiary-ru" data-validation-skip="true">
+                                        <p>російська</p>
+                                        <input type="radio" name="ub-language" value="ru" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
                             <p class="option-description">
-                                Перший український бізнес детектив
+                                Перший український бізнес детектив!!!
                             </p>
                             <p class="option-price">500<span> грн</span></p>
 
@@ -650,7 +657,7 @@
                             >Детальніше про книгу</a
                             >
                         </div>
-                        <button class="game-button">придбати</button>
+                        <button class="game-button" data-buy-handler-action="buy-redirect">придбати</button>
                     </div>
                 </li>
                 <li class="service-card green-card">
@@ -683,7 +690,7 @@
                                 часу ігрової сесії
                             </p>
                         </div>
-                        <button class="game-button">замовити</button>
+                        <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="організуй навчання">замовити</button>
                     </div>
                 </li>
                 <li class="service-card green-card">
@@ -712,7 +719,7 @@
                                 >
                             </div>
                         </div>
-                        <button class="game-button">Замовити</button>
+                        <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="очолюй гру">Замовити</button>
                     </div>
                 </li>
                 <li class="service-card green-card" data-buy-handler-skip>
@@ -869,13 +876,13 @@
                     <div class="book-img-wrapper">
                         <img src="./book-beneficiary.png" alt="">
                     </div>
-                    <p>Автор бізнес-роману “Кінцевий бенефіціар”</p>
+                    <p>Автор бізнес-роману<br/>“Кінцевий бенефіціар”</p>
                 </div>
                 <div class="author-book second-book">
                     <div class="book-img-wrapper">
                         <img src="./book-sporty-businessman.png" alt="">
                     </div>
-                    <p>Автор роману-методики “Спортивний бізнесмен”</p>
+                    <p>Автор роману-методики<br/>“Спортивний бізнесмен”</p>
                 </div>
                 <div class="video-wrapper film">
                     <!-- <div class="video-cover" id="video-cover">
@@ -975,78 +982,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"> </div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Олександр Кульвановський</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text">-->
-<!--                                Прекрасная образовательная игра. Все что вы хотели знать о принципах экономики и финансовой системе легко и доступно. И весьма глубоко. Рекомендую!-->
-<!--                            </div>-->
-<!---->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"></div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Наталія Пешкова</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text">-->
-<!--                                Мне интересна эта игра. Понравилась и рекомендую друзьям. Жду продаж))-->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"> </div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Максим Перов</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text"> Продуманная механика, отличный образовательный и развивающий потенциал, большая вариативность и реиграбельность, приближенность к нашим бизнес-реалиям - все это мотивирует думать, просчитывать наперед и каждый пять минут задавать себе вопрос "Так может все-таки пора открывать свое дело?"-->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"></div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Юлія Постернак</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text"> Найкращий спосіб провести свій вільний час з користю —зіграти в цю гру! Концентруючи увагу на грі, неможливо не заглибитись у процес з головою, тим самим відволікаючись від буденності. Азартним людям рекомендую!!!      </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"></div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Юрій Біловус</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text"> Крута гра — поринув у дитинство, коли грав цілими дні такі економічні ігри як менеджер та монополію, але тут все крутіше і ближче до тебе, не Гаїті з Фіджі, а ФОП, ТОВ, ПАТ і т.д.              </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-prev"></div>
@@ -1089,22 +1024,74 @@
                         <a href="https://t.me/timujyn38" class="game-button contacts-tg">@timujyn38</a>
                         <a class="game-button contacts-phone" href="tel:+380509021222">+380509021222</a>
                         <a class="game-button contacts-phone" href="tel:+380931516528">+380931516528</a>
-
                     </div>
-
-                    <!-- <a class="game-button" href="https://t.me/timujyn38">@timujyn38</a> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Modal Structure -->
+    <!-- Modals -->
     <div id="successModal" class="modal" style="display: none;">
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Заявка надіслана! <br> Ми сконтактуємо з Вами якомога швидше!</p>
         </div>
     </div>
+
+    <div id="errorModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="content"></div>
+        </div>
+    </div>
+
+    <div id="contactInTelegram" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="content" style="width: 90%;">
+                <div class="telegram-form">
+                    <form class="light-bg" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше імʼя" required>
+                            <!-- <span class="error-message" id="nameError">Please enter your name</span> -->
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="telephone" name="telephone" placeholder="Номер телефону" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                            <!-- <span class="error-message" id="telephoneError">Please enter a valid phone number (format: 123-45-678)</span> -->
+                        </div>
+
+                        <button style="margin-top: 20px;" type="submit" class="game-button button-accent button__contacts" disabled>
+                            Відправити
+                        </button>
+
+                        <script>
+                          const form = document.currentScript.parentElement;
+                          const btn = form.querySelector('button');
+                          const inputs = form.querySelectorAll('input');
+
+                          form.addEventListener('input', () => {
+                            btn.disabled = Array.from(inputs).some(i => !(i.value.trim()));
+                          });
+
+                          form.addEventListener('submit', (e) => {
+                            e.preventDefault();
+                            const modal = form.closest('.modal');
+
+                            buyTelegramBotMessage(modal.modalAdditionalPayload, inputs[0].value, inputs[1].value);
+
+                            inputs.forEach(i => i.value = '');
+
+                            modal.dispatchEvent(new Event('click', { bubbles: true })); // close form
+                          });
+                        </script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
     <button id="scrollToTopBtn" title="Go to top">
         <svg fill="#000" height="40" width="40" viewBox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg"><path d="m480-528-184 184-56-56 240-240 240 240-56 56z"/></svg>
     </button>
