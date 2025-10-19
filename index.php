@@ -605,7 +605,6 @@
                         <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="грай на повну">придбати</button>
                     </div>
                 </li>
-
                 <li class="service-card">
                     <h3 class="service-card-title">грай і читай</h3>
                     <div class="service-options-wrapper">
@@ -1025,16 +1024,13 @@
                         <a href="https://t.me/timujyn38" class="game-button contacts-tg">@timujyn38</a>
                         <a class="game-button contacts-phone" href="tel:+380509021222">+380509021222</a>
                         <a class="game-button contacts-phone" href="tel:+380931516528">+380931516528</a>
-
                     </div>
-
-                    <!-- <a class="game-button" href="https://t.me/timujyn38">@timujyn38</a> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Modal Structure -->
+    <!-- Modals -->
     <div id="successModal" class="modal" style="display: none;">
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -1048,6 +1044,54 @@
             <div class="content"></div>
         </div>
     </div>
+
+    <div id="contactInTelegram" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="content" style="width: 90%;">
+                <div class="telegram-form">
+                    <form class="light-bg" novalidate>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше імʼя" required>
+                            <!-- <span class="error-message" id="nameError">Please enter your name</span> -->
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="telephone" name="telephone" placeholder="Номер телефону" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                            <!-- <span class="error-message" id="telephoneError">Please enter a valid phone number (format: 123-45-678)</span> -->
+                        </div>
+
+                        <button style="margin-top: 20px;" type="submit" class="game-button button-accent button__contacts" disabled>
+                            Відправити
+                        </button>
+
+                        <script>
+                          const form = document.currentScript.parentElement;
+                          const btn = form.querySelector('button');
+                          const inputs = form.querySelectorAll('input');
+
+                          form.addEventListener('input', () => {
+                            btn.disabled = Array.from(inputs).some(i => !(i.value.trim()));
+                          });
+
+                          form.addEventListener('submit', (e) => {
+                            e.preventDefault();
+                            const modal = form.closest('.modal');
+
+                            buyTelegramBotMessage(modal.modalAdditionalPayload, inputs[0].value, inputs[1].value);
+
+                            inputs.forEach(i => i.value = '');
+
+                            modal.dispatchEvent(new Event('click', { bubbles: true })); // close form
+                          });
+                        </script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
     <button id="scrollToTopBtn" title="Go to top">
         <svg fill="#000" height="40" width="40" viewBox="0 -960 960 960" xmlns="http://www.w3.org/2000/svg"><path d="m480-528-184 184-56-56 240-240 240 240-56 56z"/></svg>
     </button>

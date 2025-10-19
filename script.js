@@ -171,7 +171,7 @@ window.addEventListener("resize", function () {
   } else destroySwipers();
 });
 
-function showModal(id, msg) {
+function showModal(id, msg, payload) {
   id ||= 'successModal'
 
   const modal = document.getElementById(id);
@@ -179,6 +179,10 @@ function showModal(id, msg) {
 
   if (msg) {
     modal.querySelector('.modal-content .content').innerHTML = msg;
+  }
+
+  if (payload) {
+    modal.modalAdditionalPayload = payload;
   }
 
   const closeBtn = document.querySelector(`#${id} .close`);
@@ -193,6 +197,28 @@ function showModal(id, msg) {
   };
 }
 
+function sendTelegramMessage(message) {
+  if (!message) {
+    return;
+  }
+
+  const url = `/send-request.php?text=${encodeURIComponent(
+    message
+  )}`;
+
+  return fetch(url)
+    .then((response) => {
+      if (response.ok) {
+        showModal();
+      } else {
+        alert("Failed to send message.");
+      }
+    })
+    .catch((error) => {
+      alert("Error occurred: " + error.message);
+    });
+}
+
 function formSubmission() {
   document
     .getElementById("contactForm")
@@ -201,25 +227,15 @@ function formSubmission() {
 
       const name = document.getElementById("name").value;
       const telephone = document.getElementById("telephone").value;
+
+      if (!name || !telephone) {
+        return showModal('errorModal', 'Вкажіть імʼя та номер телефону');
+      }
+
       const comment = document.getElementById("comment").value;
 
       const message = `Ім'я: ${name}\nТелефон: ${telephone}\nКоментар: ${comment}`;
-
-      const url = `/send-request.php?text=${encodeURIComponent(
-        message
-      )}`;
-
-      fetch(url)
-        .then((response) => {
-          if (response.ok) {
-            showModal();
-          } else {
-            alert("Failed to send message.");
-          }
-        })
-        .catch((error) => {
-          alert("Error occurred: " + error.message);
-        });
+      sendTelegramMessage(message);
     });
 }
 

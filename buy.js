@@ -4,7 +4,8 @@ const selectors = Object.freeze({
   buyOption: {
     container: '.service-option[data-buy-handler-item]',
     name: '.service-option-name',
-    checked: 'input:checked'
+    checked: 'input:checked',
+    caption: '[data-buy-handler-caption]'
   }
 });
 
@@ -33,17 +34,24 @@ function toggleDisabled(button, disabled) {
   button.classList.toggle('disabled', disabled);
 }
 
-function buyTelegramBotMessage(items, additionalPayload) {
-  const buyItemsPayloads = new Map([
-    [  'game-v1', 'Гра v1' ],
-    [  'game-v4.5.0', 'Гра v4.5.0' ],
-    [  'participation-offline-game', 'Грати оффлайн' ],
-    [  'participation-online-game', 'Грати онлайн' ],
-  ]);
+async function buyTelegramBotMessage(payload, name, phone) {
+  let msg = `Заявка на: "${payload.buyHandlerAdditionalPayload.toUpperCase()}"\n`;
 
-  console.warn('!!!!!!!!!!!!!! implement buyTelegramBotMessage logic, params: --------------');
-  console.log("=>(buy.js:36) additionalPayload", additionalPayload);
-  console.log("=>(buy.js:36) items", items);
+  if (payload.buyItems?.length) {
+    const itemsMessages = payload.buyItems.map(i => `${i.name}(${i.value})`);
+
+    msg += `Обрані позиції:\n${itemsMessages.join('\n')}`;
+    msg += '\n';
+  }
+
+  msg += `Імʼя: ${name}\nТелефон: ${phone}\n`;
+
+  try {
+    await sendTelegramMessage(msg);
+    showModal();
+  } catch {
+    showModal('errorModal', 'Щось пішло не так, спробуйте пізніше.');
+  }
 }
 
 function buyRedirect(items) {
@@ -69,7 +77,10 @@ async function buyAction(button, buyItems) {
           await buyRedirect(buyItems);
           break;
         case 'telegram-bot-message':
-          await buyTelegramBotMessage(buyItems, button.dataset.buyHandlerAdditionalPayload);
+          showModal('contactInTelegram', null, {
+            buyItems,
+            buyHandlerAdditionalPayload: button.dataset.buyHandlerAdditionalPayload
+          })
           break;
         default:
           console.error('No [data-buy-handler-action] found on a button');
