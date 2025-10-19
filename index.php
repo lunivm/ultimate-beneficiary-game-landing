@@ -612,9 +612,7 @@
                         <label class="service-option" data-buy-handler-item="game-v1">
                             <p class="service-option-name">
                                 Кінцевий бенефіціар 1.0
-                                <span class="option-language"
-                                >мова: українська/російська</span
-                                >
+                                <div class="option-language" >мова: українська/російська</div >
                             </p>
 
                             <p class="option-description">
@@ -635,14 +633,24 @@
                             <span class="checkmark"></span>
                         </label>
                         <div class="service-option service-option__checked">
-                            <p class="service-option-name">
+                            <div class="service-option-name">
                                 Книга “Кінцевий бенефіціар”
-                                <span class="option-language"
-                                >мова: українська/російська</span
-                                >
-                            </p>
+                                <div class="option-language">
+                                    <p style="margin-top: 10px">мова:</p>
+                                    <label class="service-option" style="margin-top: 20px;" data-buy-handler-item="book-ultimate-beneficiary-ua" data-validation-skip="true">
+                                        <p>українська</p>
+                                        <input type="radio" name="ub-language" value="ua" checked />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="service-option" data-buy-handler-item="book-ultimate-beneficiary-ru" data-validation-skip="true">
+                                        <p>російська</p>
+                                        <input type="radio" name="ub-language" value="ru" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
                             <p class="option-description">
-                                Перший український бізнес детектив
+                                Перший український бізнес детектив!!!
                             </p>
                             <p class="option-price">500<span> грн</span></p>
 
@@ -650,7 +658,7 @@
                             >Детальніше про книгу</a
                             >
                         </div>
-                        <button class="game-button">придбати</button>
+                        <button class="game-button" data-buy-handler-action="buy-redirect">придбати</button>
                     </div>
                 </li>
                 <li class="service-card green-card">
@@ -975,78 +983,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"> </div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Олександр Кульвановський</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text">-->
-<!--                                Прекрасная образовательная игра. Все что вы хотели знать о принципах экономики и финансовой системе легко и доступно. И весьма глубоко. Рекомендую!-->
-<!--                            </div>-->
-<!---->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"></div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Наталія Пешкова</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text">-->
-<!--                                Мне интересна эта игра. Понравилась и рекомендую друзьям. Жду продаж))-->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"> </div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Максим Перов</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text"> Продуманная механика, отличный образовательный и развивающий потенциал, большая вариативность и реиграбельность, приближенность к нашим бизнес-реалиям - все это мотивирует думать, просчитывать наперед и каждый пять минут задавать себе вопрос "Так может все-таки пора открывать свое дело?"-->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"></div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Юлія Постернак</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text"> Найкращий спосіб провести свій вільний час з користю —зіграти в цю гру! Концентруючи увагу на грі, неможливо не заглибитись у процес з головою, тим самим відволікаючись від буденності. Азартним людям рекомендую!!!      </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="swiper-slide">-->
-<!--                        <div class="slider-item">-->
-<!--                            <div class="author-testimonial">-->
-<!--                                <div class="author-testimonial__image"></div>-->
-<!--                                <div class="testimonial-author-wrapper">-->
-<!--                                    <h3 class="testimonial-author__name">Юрій Біловус</h3>-->
-<!--                                    <p class="testimonial-author__about">Хто такий і звідки</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="testimonial-text"> Крута гра — поринув у дитинство, коли грав цілими дні такі економічні ігри як менеджер та монополію, але тут все крутіше і ближче до тебе, не Гаїті з Фіджі, а ФОП, ТОВ, ПАТ і т.д.              </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-prev"></div>
@@ -1103,6 +1039,13 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Заявка надіслана! <br> Ми сконтактуємо з Вами якомога швидше!</p>
+        </div>
+    </div>
+
+    <div id="errorModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="content"></div>
         </div>
     </div>
     <button id="scrollToTopBtn" title="Go to top">

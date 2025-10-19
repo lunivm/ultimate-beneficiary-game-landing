@@ -13,6 +13,7 @@ function getOption(container) {
     name: container.querySelector(selectors.buyOption.name)?.childNodes[0]?.textContent?.trim(),
     value: container.dataset.buyHandlerItem,
     checked: container.querySelector(selectors.buyOption.checked),
+    skipValidation: container.dataset.validationSkip
   }
 }
 
@@ -24,7 +25,7 @@ function getOptions(parent) {
 function getAlertMessage(buyItems) {
   const buyItemSelected = buyItems.some(i => i.checked);
 
-  return buyItemSelected ? null : buyItems.map(i => i.name).join('\n');
+  return buyItemSelected ? null : buyItems.map(i => i.name).join('<br/>');
 }
 
 function toggleDisabled(button, disabled) {
@@ -48,17 +49,18 @@ function buyTelegramBotMessage(items, additionalPayload) {
 function buyRedirect(items) {
   const url = 'https://www.beneficiary.com.ua/multi-cart';
   const buyItemsUrl = new Map([
-    [  'game-v1', '748' ],
-    [  'game-v4.5.0', '1198' ],
+    ['game-v1', '748'],
+    ['game-v4.5.0', '1198'],
+    ['book-ultimate-beneficiary-ua', '671'],
+    ['book-ultimate-beneficiary-ru', '676']
   ]);
   const params = items.map(i => buyItemsUrl.get(i.value)).join(',');
-
+  document.body.innerHTML = '';
   window.location.href = `${url}?multi-add-to-cart=${params}`;
 }
 
 async function buyAction(button, buyItems) {
   toggleDisabled(button, true);
-
 
   setTimeout(async () => {
     try {
@@ -73,7 +75,7 @@ async function buyAction(button, buyItems) {
           console.error('No [data-buy-handler-action] found on a button');
       }
     } catch(err) {
-      alert('Щось пішло не так, спробуйте ще раз');
+      showModal('errorModal', 'Щось пішло не так, спробуйте ще раз');
     } finally {
       toggleDisabled(button, false);
     }
@@ -83,11 +85,11 @@ async function buyAction(button, buyItems) {
 function clickHandler(card) {
   card.querySelector(selectors.buyButton)?.addEventListener('click', function () {
     const buyItems = getOptions(card);
-    const alertMessage = getAlertMessage(buyItems);
+    const alertMessage = getAlertMessage(buyItems.filter(i => !i.skipValidation));
 
     if (alertMessage){
       this.blur();
-      alert(`Оберіть хоча б один елемент зі списку:\n${alertMessage}`);
+      showModal('errorModal', `Оберіть хоча б один елемент зі списку:<br/>${alertMessage}`);
     } else {
       buyAction(this, buyItems.filter(i => i.checked));
     }

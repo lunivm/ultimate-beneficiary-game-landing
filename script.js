@@ -171,11 +171,17 @@ window.addEventListener("resize", function () {
   } else destroySwipers();
 });
 
-function showModal() {
-  const modal = document.getElementById("successModal");
+function showModal(id, msg) {
+  id ||= 'successModal'
+
+  const modal = document.getElementById(id);
   modal.style.display = "block";
 
-  const closeBtn = document.querySelector("#successModal .close");
+  if (msg) {
+    modal.querySelector('.modal-content .content').innerHTML = msg;
+  }
+
+  const closeBtn = document.querySelector(`#${id} .close`);
   closeBtn.onclick = function () {
     modal.style.display = "none";
   };
@@ -187,7 +193,7 @@ function showModal() {
   };
 }
 
-function formValidation() {
+function formSubmission() {
   document
     .getElementById("contactForm")
     .addEventListener("submit", function (event) {
@@ -226,7 +232,7 @@ document.addEventListener("DOMContentLoaded", function () {
   initScrollToTopBtn();
   initializeTestimonialsSwiper();
   // modal();
-  formValidation();
+  formSubmission();
   if (window.innerWidth < 1280) {
     console.log(" window: ", window.innerWidth);
     initializeHeroSwiper();
