@@ -235,11 +235,16 @@ nav {
 }
 
 .nav-menu-item a {
-  padding: 50px 10px;
+  padding: 10px;
   font-size: 14px;
   font-family: "Roboto Condensed", serif;
   font-weight: 500;
+
+  @media screen and (min-width: 1280px) {
+    padding: 50px 10px;
+  }
 }
+
 
 .hero {
   padding-top: 0;
