@@ -690,7 +690,7 @@
                                 часу ігрової сесії
                             </p>
                         </div>
-                        <button class="game-button">замовити</button>
+                        <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="організуй навчання">замовити</button>
                     </div>
                 </li>
                 <li class="service-card green-card">
@@ -719,7 +719,7 @@
                                 >
                             </div>
                         </div>
-                        <button class="game-button">Замовити</button>
+                        <button class="game-button" data-buy-handler-action="telegram-bot-message" data-buy-handler-additional-payload="очолюй гру">Замовити</button>
                     </div>
                 </li>
                 <li class="service-card green-card" data-buy-handler-skip>
