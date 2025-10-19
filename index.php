@@ -876,13 +876,13 @@
                     <div class="book-img-wrapper">
                         <img src="./book-beneficiary.png" alt="">
                     </div>
-                    <p>Автор бізнес-роману “Кінцевий бенефіціар”</p>
+                    <p>Автор бізнес-роману<br/>“Кінцевий бенефіціар”</p>
                 </div>
                 <div class="author-book second-book">
                     <div class="book-img-wrapper">
                         <img src="./book-sporty-businessman.png" alt="">
                     </div>
-                    <p>Автор роману-методики “Спортивний бізнесмен”</p>
+                    <p>Автор роману-методики<br/>“Спортивний бізнесмен”</p>
                 </div>
                 <div class="video-wrapper film">
                     <!-- <div class="video-cover" id="video-cover">
