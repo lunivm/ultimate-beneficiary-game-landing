@@ -825,7 +825,7 @@
                         </a></li>
                 </ul>
                 <div class="author-about-description">
-                    <p class="author-about">Український топ-менеджер та фахівець з корпоративного управління, юрист, банкір, громадський діяч, спортсмен, письменни</p>
+                    <p class="author-about">Український топ-менеджер та фахівець з корпоративного управління, юрист, банкір, громадський діяч, спортсмен, письменник</p>
                     <div class="author-about">
                         <div>
                             <img class="author-about-image" src="./mo-logo.png" />
