@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кінцевий бенефіціар</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-1.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -825,21 +825,17 @@
                         </a></li>
                 </ul>
                 <div class="author-about-description">
-                    <p class="author-about">Спеціаліст із банківського права, цінних паперів та корпоративного управління</p>
-                    <p class="author-about">Голова Наглядових рад “Енергопроект” та “Оріана” — компаній Фонду держмайна України з 2021 по 2023 роки</p>
-                    <p class="author-about">Засновник видавництва та Громадської організації “КІНЦЕВИЙ БЕНЕФІЦІАР”</p>
-                </div>
-                <div class="work-experience work-first">
-                    <picture class="company-logo-wrapper">
-                        <source srcset="./ofir-capital-desk.png" media="(min-width: 1280)">
-                        <img class="company-logo ofir-logo" src="./ofir-capital-mob.png" alt="Ofir Capital Logo">
-                    </picture>
-                    <div class="work-description">
-                        <span class="work-time">2017-2018</span>
-                        <p>Директор Компанії  <br>з управління активами</p>
+                    <p class="author-about">Український топ-менеджер та фахівець з корпоративного управління, юрист, банкір, громадський діяч, спортсмен, письменни</p>
+                    <div class="author-about">
+                        <div>
+                            <img class="author-about-image" src="./mo-logo.png" />
+                        </div>
+                        Перший заступник гендиректора Концерну Міноборони «Військторгсервіс»2024-2025
                     </div>
+                    <p class="author-about">Голова Наглядових рах компаній Фонду держмайна україни – НДІ «Енергопроект», заводу калійних добрив «Оріана»2021-2023</p>
                 </div>
-                <div class="work-experience work-second">
+
+                <div class="work-experience work-first">
                     <picture class="company-logo-wrapper">
                         <source srcset="./nova-poshta-desktop.png" media="(min-width: 1280px)">
                         <img class="company-logo" src="./nova-poshta-mob.png" alt="Nova Poshta Logo">
@@ -849,11 +845,22 @@
                         <p>Директор Департаменту корпоративного управління</p>
                     </div>
                 </div>
+
+                <div class="work-experience work-second">
+                    <picture class="company-logo-wrapper">
+                        <img class="company-logo" src="./logo-kb.png" alt="ultimate beneficiary Logo">
+                    </picture>
+                    <div class="work-description">
+                        <span class="work-time">2018-2025</span>
+                        <p>Засновник Видавництва бізнес-літератури «Кінцевий бенефіціар»</p>
+                    </div>
+                </div>
+
                 <div class="work-experience companies">
                     <div class=" logo-set company-logo-wrapper">
                         <picture>
-                            <source srcset="./vtb-desktop.png" media="(min-width: 1280px)">
-                            <img class="company-logo" src="./vtb-mobile.png" alt="VTB Logo">
+                            <source srcset="./Xcitybank_logo.png" media="(min-width: 1280px)">
+                            <img class="company-logo" src="./Xcitybank_logo.png" alt="VTB Logo">
                         </picture>
                         <picture>
                             <source srcset="./pumb-desktop.png" media="(min-width: 1280px)">
@@ -866,8 +873,8 @@
                         </picture>
                     </div>
                     <div class="work-description">
-                        <span class="work-time">2009-2015</span>
-                        <p>Працював на керівних посадах</p>
+                        <span class="work-time">2010-2015</span>
+                        <p>Працював на керівних посадах у банках ВТБ, ПУМБ, Хрещатик, Ощадбанк</p>
                     </div>
                 </div>
 
@@ -1099,8 +1106,8 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="./script.js"></script>
-<script src="./buy.js"></script>
+<script src="./script-1.js"></script>
+<script src="./buy-1.js"></script>
 </body>
 <footer class="footer">
     <div class="container thin-container">

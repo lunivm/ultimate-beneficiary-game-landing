@@ -48,6 +48,17 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  max-height: 100%;
+}
+
+.author-about-image {
+  padding-bottom: 10px;
+  height: 100px;
+
+  @media (min-width: 1280px) {
+    margin: auto;
+    margin-top: -97px;
+  }
 }
 
 button,
