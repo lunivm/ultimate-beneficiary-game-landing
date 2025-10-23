@@ -801,28 +801,27 @@
             <h2>Автор гри</h2>
             <div class="author-wrapper">
                 <picture class="author-photo">
-                    <source srcset="./author-photo-desktop.png" media="(min-width: 1280px)">
-                    <source srcset="./author-photo-tablet.png" media="(min-width: 768px)">
-                    <img src="./author-photo-mobile.png" alt="Author Photo">
+                    <source srcset="./author-photo-desktop-1.png" media="(min-width: 1280px)">
+                    <img src="./author-photo-mobile-1.png" alt="Author Photo">
                 </picture>
 
                 <h3 class="author-name">Роман Кузюк</h3>
                 <ul class="social-list">
-                    <li><a class="instagram" href="#">
+                    <li><a class="instagram" href="https://www.instagram.com/roman_kuzyuk/">
                             <svg>
                                 <use xlink:href="sprite.svg#icon-instagram"></use>
                             </svg>
                         </a></li>
-                    <li><a class="facebook" href="#">
+                    <li><a class="facebook" href="https://www.facebook.com/roman.kuzyuk.2025">
                             <svg>
                                 <use xlink:href="sprite.svg#icon-facebook"></use>
                             </svg>
                         </a></li>
-                    <li><a class="telegram" href="#">
-                            <svg>
-                                <use xlink:href="sprite.svg#icon-telegram"></use>
-                            </svg>
-                        </a></li>
+<!--                    <li><a class="telegram" href="#">-->
+<!--                            <svg>-->
+<!--                                <use xlink:href="sprite.svg#icon-telegram"></use>-->
+<!--                            </svg>-->
+<!--                        </a></li>-->
                 </ul>
                 <div class="author-about-description">
                     <p class="author-about">Український топ-менеджер та фахівець з корпоративного управління, юрист, банкір, громадський діяч, спортсмен, письменник</p>
