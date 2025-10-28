@@ -20,7 +20,7 @@
 <header>
     <div class="container">
         <nav>
-            <a class="logo" href="#"><img src="./logo.png" alt="logo" /></a>
+            <a class="logo" href="https://beneficiary.com.ua"><img src="./logo.png" alt="logo" /></a>
             <button class="nav-menu-button" id="navMenuButton">Меню</button>
             <ul class="nav-menu" id="navMenu">
                 <li class="nav-menu-item">
