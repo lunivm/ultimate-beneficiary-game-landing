@@ -817,11 +817,11 @@
                                 <use xlink:href="sprite.svg#icon-facebook"></use>
                             </svg>
                         </a></li>
-<!--                    <li><a class="telegram" href="#">-->
-<!--                            <svg>-->
-<!--                                <use xlink:href="sprite.svg#icon-telegram"></use>-->
-<!--                            </svg>-->
-<!--                        </a></li>-->
+                    <li><a class="telegram" href="https://t.me/timujyn38">
+                            <svg>
+                                <use xlink:href="sprite.svg#icon-telegram"></use>
+                            </svg>
+                        </a></li>
                 </ul>
                 <div class="author-about-description">
                     <p class="author-about">Український топ-менеджер та фахівець з корпоративного управління, юрист, банкір, громадський діяч, спортсмен, письменник</p>
@@ -832,7 +832,7 @@
                         Перший заступник гендиректора Концерну Міноборони «Військторгсервіс»
                         <span class="work-time">2024-2025</span>
                     </div>
-                    <p class="author-about">Голова Наглядових рах компаній Фонду держмайна україни – НДІ «Енергопроект», заводу калійних добрив «Оріана» <span class="work-time">2021-2023</span></p>
+                    <p class="author-about">Голова Наглядових рад компаній Фонду держмайна України – НДІ «Енергопроект», заводу калійних добрив «Оріана» <span class="work-time">2021-2023</span></p>
                 </div>
 
                 <div class="work-experience work-first">
@@ -874,7 +874,7 @@
                     </div>
                     <div class="work-description">
                         <span class="work-time">2010-2015</span>
-                        <p>Працював на керівних посадах у банках ВТБ, ПУМБ, Хрещатик, Ощадбанк</p>
+                        <p>Працював на керівних посадах у банках <br/> ВТБ, ПУМБ, Хрещатик, Ощадбанк</p>
                     </div>
                 </div>
 
