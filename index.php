@@ -706,7 +706,7 @@
                         </div>
                         <div class="service-option">
                             <p class="option-price">
-                                <span>від </span>4000<span> грн</span>
+                                <span>від </span>200$<span> грн</span>
                             </p>
                             <p class="option-description">
                                 *Ціна залежить від особливостей курсу навчання та глибини сертифікації ведучого
