@@ -684,7 +684,7 @@
                             <span class="checkmark"></span>
                         </label>
                         <div class="service-option">
-                            <p class="option-price">600-1000<span> грн</span></p>
+                            <p class="option-price">800-1800<span> грн</span></p>
                             <p class="option-description">
                                 *Ціна участі в грі залежить від формату, ведучого, місця та
                                 часу ігрової сесії
