@@ -566,7 +566,7 @@
                                 Ідеально для людей, які хочуть навчитися думати як
                                 підприємці
                             </p>
-                            <p class="option-price">1500<span> грн</span></p>
+                            <p class="option-price">1650<span> грн</span></p>
                             <input type="checkbox" />
                             <span class="checkmark"></span>
                         </label>
